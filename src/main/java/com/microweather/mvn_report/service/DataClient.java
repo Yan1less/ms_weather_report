@@ -17,7 +17,7 @@ import java.util.List;
  * @since 1.0.0 2017年11月28日
  * @author <a href="https://waylau.com">Way Lau</a> 
  */
-@FeignClient(name="msa-weather-eureka-client-zuul", fallback=DataClientFallback.class)
+@FeignClient(name="MSA-WEATHER-EUREKA-CLIENT-ZUUL", fallback=DataClientFallback.class)
 public interface DataClient {
 	/**
 	 * 获取城市列表
